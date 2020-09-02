@@ -1,19 +1,20 @@
 import React from 'react';
 import Navbar from './Navbar.js';
 import './App.css';
-import Banner from './Banner.js';
-import Body from './Body.js';
+import Row from './Row';
+
 
 function App() {
   return (
     <div className="app">
-      
       <Navbar />
-      
-      
-     
+       
+       <Row />
+
+       
       
     </div>
+    
     
   );
 }
